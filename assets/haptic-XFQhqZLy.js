@@ -1,1 +1,0 @@
-import{n as e}from"./chunk-jRWAZmH_.js";var t,n,r=e((()=>{t=e=>{typeof navigator<`u`&&`vibrate`in navigator&&navigator.vibrate(e)},n={complete:()=>t([10,30,10]),select:()=>t(5),drag:()=>t(8),delete:()=>t([15,10,15])}}));export{r as n,n as t};

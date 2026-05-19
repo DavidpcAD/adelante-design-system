@@ -1,53 +1,79 @@
-import{n as e}from"./chunk.js";import{n as t,t as n}from"./QuantitySelector.js";var r,i,a,o,s,c,l,u,d,f;e((()=>{t(),r={title:`Sistema de Diseño/QuantitySelector`,component:n,parameters:{layout:`centered`},argTypes:{state:{control:{type:`inline-radio`},options:[`pendiente`,`incompleto`,`completo`,`sin-stock`]},mode:{control:{type:`inline-radio`},options:[`standard`,`pressed`]},size:{control:{type:`inline-radio`},options:[`sm`,`md`,`lg`]},value:{control:{type:`number`,min:0,max:999}}}},i={args:{value:3,state:`pendiente`,size:`sm`}},a={args:{value:3,state:`incompleto`,size:`sm`}},o={args:{value:3,state:`completo`,size:`sm`}},s={args:{value:3,state:`sin-stock`,size:`sm`}},c={args:{value:3,state:`pendiente`,mode:`pressed`,size:`sm`}},l={args:{value:3,state:`incompleto`,mode:`pressed`,size:`sm`}},u={args:{value:3,state:`completo`,mode:`pressed`,size:`sm`}},d={args:{value:3,state:`sin-stock`,mode:`pressed`,size:`sm`}},i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+import{n as e,o as t}from"./chunk.js";import{F as n}from"./iframe.js";import{t as r}from"./jsx-runtime.js";import{n as i,t as a}from"./QuantitySelector.js";var o,s,c,l,u,d,f,p,m,h,g,_,v;e((()=>{o=t(n()),i(),s=r(),c={title:`Sistema de Diseño/QuantitySelector`,component:a,parameters:{layout:`centered`},argTypes:{state:{control:{type:`inline-radio`},options:[`pendiente`,`incompleto`,`completo`,`sin-stock`]},mode:{control:{type:`inline-radio`},options:[`standard`,`pressed`]},size:{control:{type:`inline-radio`},options:[`sm`,`md`,`lg`]},value:{control:{type:`number`,min:0,max:999}}}},l={args:{value:3,state:`pendiente`,size:`sm`}},u={args:{value:3,state:`incompleto`,size:`sm`}},d={args:{value:3,state:`completo`,size:`sm`}},f={args:{value:3,state:`sin-stock`,size:`sm`}},p={args:{value:3,state:`pendiente`,mode:`pressed`,size:`sm`}},m={args:{value:3,state:`incompleto`,mode:`pressed`,size:`sm`}},h={args:{value:3,state:`completo`,mode:`pressed`,size:`sm`}},g={args:{value:3,state:`sin-stock`,mode:`pressed`,size:`sm`}},_={name:`Interactive / Tap to increment`,render:()=>{let[e,t]=(0,o.useState)(0);return(0,s.jsxs)(`div`,{style:{display:`flex`,flexDirection:`column`,alignItems:`center`,gap:16},children:[(0,s.jsx)(a,{value:e,state:(e=>e===0?`pendiente`:e<3?`incompleto`:e>=5?`sin-stock`:`completo`)(e),onTap:()=>t(e=>e>=6?0:e+1)}),(0,s.jsx)(`p`,{style:{margin:0,fontSize:12,color:`#5d636c`},children:`Tap para incrementar (reset a 0 en 7)`})]})}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "pendiente",
     size: "sm"
   }
-}`,...i.parameters?.docs?.source},description:{story:`Pendiente — gris, sin anillo. No se ha registrado.`,...i.parameters?.docs?.description}}},a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+}`,...l.parameters?.docs?.source},description:{story:`Pendiente — gris, sin anillo. No se ha registrado.`,...l.parameters?.docs?.description}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "incompleto",
     size: "sm"
   }
-}`,...a.parameters?.docs?.source},description:{story:`Incompleto — anillo amarillo a la mitad derecha. Faltan materiales.`,...a.parameters?.docs?.description}}},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+}`,...u.parameters?.docs?.source},description:{story:`Incompleto — anillo amarillo a la mitad derecha. Faltan materiales.`,...u.parameters?.docs?.description}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "completo",
     size: "sm"
   }
-}`,...o.parameters?.docs?.source},description:{story:`Completo — anillo verde completo. Están todos.`,...o.parameters?.docs?.description}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+}`,...d.parameters?.docs?.source},description:{story:`Completo — anillo verde completo. Están todos.`,...d.parameters?.docs?.description}}},f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "sin-stock",
     size: "sm"
   }
-}`,...s.parameters?.docs?.source},description:{story:`Sin stock — anillo rojo completo. No hay disponible.`,...s.parameters?.docs?.description}}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+}`,...f.parameters?.docs?.source},description:{story:`Sin stock — anillo rojo completo. No hay disponible.`,...f.parameters?.docs?.description}}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "pendiente",
     mode: "pressed",
     size: "sm"
   }
-}`,...c.parameters?.docs?.source},description:{story:`Pressed (estado fijo) — halo shadow alrededor. También se aplica auto al :active de un Tappable.`,...c.parameters?.docs?.description}}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+}`,...p.parameters?.docs?.source},description:{story:`Pressed (estado fijo) — halo shadow alrededor. También se aplica auto al :active de un Tappable.`,...p.parameters?.docs?.description}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "incompleto",
     mode: "pressed",
     size: "sm"
   }
-}`,...l.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "completo",
     mode: "pressed",
     size: "sm"
   }
-}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+}`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
   args: {
     value: 3,
     state: "sin-stock",
     mode: "pressed",
     size: "sm"
   }
-}`,...d.parameters?.docs?.source}}},f=[`Pendiente`,`Incompleto`,`Completo`,`SinStock`,`PendientePressed`,`IncompletoPressed`,`CompletoPressed`,`SinStockPressed`]}))();export{o as Completo,u as CompletoPressed,a as Incompleto,l as IncompletoPressed,i as Pendiente,c as PendientePressed,s as SinStock,d as SinStockPressed,f as __namedExportsOrder,r as default};
+}`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  name: "Interactive / Tap to increment",
+  render: () => {
+    const [val, setVal] = useState(0);
+    const getState = (v: number) => {
+      if (v === 0) return "pendiente" as const;
+      if (v < 3) return "incompleto" as const;
+      if (v >= 5) return "sin-stock" as const;
+      return "completo" as const;
+    };
+    return <div style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      gap: 16
+    }}>
+        <QuantitySelector value={val} state={getState(val)} onTap={() => setVal(v => v >= 6 ? 0 : v + 1)} />
+        <p style={{
+        margin: 0,
+        fontSize: 12,
+        color: "#5d636c"
+      }}>
+          Tap para incrementar (reset a 0 en 7)
+        </p>
+      </div>;
+  }
+}`,..._.parameters?.docs?.source},description:{story:`Interactive — tap para incrementar cantidad con animación.`,..._.parameters?.docs?.description}}},v=[`Pendiente`,`Incompleto`,`Completo`,`SinStock`,`PendientePressed`,`IncompletoPressed`,`CompletoPressed`,`SinStockPressed`,`Interactive`]}))();export{d as Completo,h as CompletoPressed,u as Incompleto,m as IncompletoPressed,_ as Interactive,l as Pendiente,p as PendientePressed,f as SinStock,g as SinStockPressed,v as __namedExportsOrder,c as default};

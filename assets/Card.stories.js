@@ -16,7 +16,7 @@ import{n as e}from"./chunk.js";import{F as t,s as n}from"./iframe.js";import{t a
 | "sin-stock"
 | "default"
 | "ok"
-| "alert"`,elements:[{name:`literal`,value:`"pendiente"`},{name:`literal`,value:`"incompleto"`},{name:`literal`,value:`"completo"`},{name:`literal`,value:`"sin-stock"`},{name:`literal`,value:`"default"`},{name:`literal`,value:`"ok"`},{name:`literal`,value:`"alert"`}]},description:``,defaultValue:{value:`"completo"`,computed:!1}},materials:{required:!1,tsType:{name:`Array`,elements:[{name:`MaterialListProps`}],raw:`MaterialListProps[]`},description:``,defaultValue:{value:`[]`,computed:!1}}}},_.__docgenInfo={description:`@deprecated Use SummaryCard, MaterialList, or DetailCard`,methods:[],displayName:`Card`,props:{title:{required:!0,tsType:{name:`string`},description:``},description:{required:!1,tsType:{name:`string`},description:``},variant:{required:!1,tsType:{name:`union`,raw:`"default" | "outlined" | "filled"`,elements:[{name:`literal`,value:`"default"`},{name:`literal`,value:`"outlined"`},{name:`literal`,value:`"filled"`}]},description:``,defaultValue:{value:`"default"`,computed:!1}},children:{required:!1,tsType:{name:`ReactReactNode`,raw:`React.ReactNode`},description:``}}}})),b,x,S,C,w,T,E,D;e((()=>{t(),y(),b=r(),x={title:`Sistema de Diseño/Card`,component:m,tags:[`autodocs`],argTypes:{visibility:{control:`select`,options:[`open`,`close`]},statusState:{control:`select`,options:[`completo`,`incompleto`,`pendiente`,`sin-stock`]}},args:{company:`NOVARUM`,code:`C.01`,orderNumber:`BS000095`,timestamp:`Ayer 10:25 am`,statusState:`completo`,visibility:`open`}},S={args:{visibility:`open`}},C={args:{visibility:`close`}},w={name:`Todos los estados`,render:()=>(0,b.jsxs)(`div`,{style:{display:`flex`,flexDirection:`column`,gap:16,padding:16,background:`var(--ds-color-surface)`},children:[(0,b.jsx)(m,{visibility:`open`,statusState:`completo`}),(0,b.jsx)(m,{visibility:`close`,statusState:`incompleto`}),(0,b.jsx)(m,{visibility:`open`,statusState:`pendiente`}),(0,b.jsx)(m,{visibility:`close`,statusState:`sin-stock`})]})},T={name:`MaterialList`,render:()=>(0,b.jsxs)(`div`,{style:{display:`flex`,flexDirection:`column`,gap:12,padding:16,background:`var(--ds-color-surface)`},children:[(0,b.jsx)(h,{description:`CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V`,qtyState:`completo`,qty:5}),(0,b.jsx)(h,{description:`CABLE THHN #12 ROJO 100M`,qtyState:`pendiente`,qty:2}),(0,b.jsx)(h,{description:`TUBO PVC 1/2 PULGADA`,qtyState:`incompleto`,qty:1}),(0,b.jsx)(h,{description:`BREAKER 20A SCHNEIDER`,qtyState:`sin-stock`,qty:0})]})},E={name:`DetailCard`,render:()=>(0,b.jsx)(`div`,{style:{padding:16,background:`var(--ds-color-surface)`},children:(0,b.jsx)(g,{company:`NOVARUM`,code:`C.01`,orderNumber:`BS000095`,timestamp:`Ayer 10:25 am`,statusState:`completo`,materials:[{description:`CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V`,qtyState:`completo`,qty:4},{description:`CABLE THHN #12 ROJO 100M`,qtyState:`pendiente`,qty:2},{description:`TUBO PVC 1/2 PULGADA`,qtyState:`incompleto`,qty:1}]})})},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
+| "alert"`,elements:[{name:`literal`,value:`"pendiente"`},{name:`literal`,value:`"incompleto"`},{name:`literal`,value:`"completo"`},{name:`literal`,value:`"sin-stock"`},{name:`literal`,value:`"default"`},{name:`literal`,value:`"ok"`},{name:`literal`,value:`"alert"`}]},description:``,defaultValue:{value:`"completo"`,computed:!1}},materials:{required:!1,tsType:{name:`Array`,elements:[{name:`MaterialListProps`}],raw:`MaterialListProps[]`},description:``,defaultValue:{value:`[]`,computed:!1}}}},_.__docgenInfo={description:`@deprecated Use SummaryCard, MaterialList, or DetailCard`,methods:[],displayName:`Card`,props:{title:{required:!0,tsType:{name:`string`},description:``},description:{required:!1,tsType:{name:`string`},description:``},variant:{required:!1,tsType:{name:`union`,raw:`"default" | "outlined" | "filled"`,elements:[{name:`literal`,value:`"default"`},{name:`literal`,value:`"outlined"`},{name:`literal`,value:`"filled"`}]},description:``,defaultValue:{value:`"default"`,computed:!1}},children:{required:!1,tsType:{name:`ReactReactNode`,raw:`React.ReactNode`},description:``}}}})),b,x,S,C,w,T,E;e((()=>{t(),y(),b=r(),x={title:`Sistema de Diseño/Card`,component:m,tags:[`autodocs`],argTypes:{visibility:{control:`select`,options:[`open`,`close`]}},args:{company:`NOVARUM`,code:`C.01`,orderNumber:`BS000095`,timestamp:`Ayer 10:25 am`,statusState:`completo`,visibility:`open`}},S={args:{visibility:`open`}},C={args:{visibility:`close`}},w={name:`MaterialList`,render:()=>(0,b.jsx)(`div`,{style:{padding:16,background:`var(--ds-color-surface)`},children:(0,b.jsx)(h,{description:`CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V`,qtyState:`incompleto`,qty:3})})},T={name:`DetailCard`,render:()=>(0,b.jsx)(`div`,{style:{padding:16,background:`var(--ds-color-surface)`},children:(0,b.jsx)(g,{company:`NOVARUM`,code:`C.01`,orderNumber:`BS000095`,timestamp:`Ayer 10:25 am`,statusState:`completo`,materials:[{description:`CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V`,qtyState:`incompleto`,qty:3},{description:`CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V`,qtyState:`incompleto`,qty:3},{description:`CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V`,qtyState:`incompleto`,qty:3}]})})},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
   args: {
     visibility: "open"
   }
@@ -25,34 +25,14 @@ import{n as e}from"./chunk.js";import{F as t,s as n}from"./iframe.js";import{t a
     visibility: "close"
   }
 }`,...C.parameters?.docs?.source}}},w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
-  name: "Todos los estados",
-  render: () => <div style={{
-    display: "flex",
-    flexDirection: "column",
-    gap: 16,
-    padding: 16,
-    background: "var(--ds-color-surface)"
-  }}>
-      <SummaryCard visibility="open" statusState="completo" />
-      <SummaryCard visibility="close" statusState="incompleto" />
-      <SummaryCard visibility="open" statusState="pendiente" />
-      <SummaryCard visibility="close" statusState="sin-stock" />
-    </div>
-}`,...w.parameters?.docs?.source}}},T.parameters={...T.parameters,docs:{...T.parameters?.docs,source:{originalSource:`{
   name: "MaterialList",
   render: () => <div style={{
-    display: "flex",
-    flexDirection: "column",
-    gap: 12,
     padding: 16,
     background: "var(--ds-color-surface)"
   }}>
-      <MaterialList description="CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V" qtyState="completo" qty={5} />
-      <MaterialList description="CABLE THHN #12 ROJO 100M" qtyState="pendiente" qty={2} />
-      <MaterialList description="TUBO PVC 1/2 PULGADA" qtyState="incompleto" qty={1} />
-      <MaterialList description="BREAKER 20A SCHNEIDER" qtyState="sin-stock" qty={0} />
+      <MaterialList description="CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V" qtyState="incompleto" qty={3} />
     </div>
-}`,...T.parameters?.docs?.source}}},E.parameters={...E.parameters,docs:{...E.parameters?.docs,source:{originalSource:`{
+}`,...w.parameters?.docs?.source}}},T.parameters={...T.parameters,docs:{...T.parameters?.docs,source:{originalSource:`{
   name: "DetailCard",
   render: () => <div style={{
     padding: 16,
@@ -60,16 +40,16 @@ import{n as e}from"./chunk.js";import{F as t,s as n}from"./iframe.js";import{t a
   }}>
       <DetailCard company="NOVARUM" code="C.01" orderNumber="BS000095" timestamp="Ayer 10:25 am" statusState="completo" materials={[{
       description: "CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V",
-      qtyState: "completo",
-      qty: 4
-    }, {
-      description: "CABLE THHN #12 ROJO 100M",
-      qtyState: "pendiente",
-      qty: 2
-    }, {
-      description: "TUBO PVC 1/2 PULGADA",
       qtyState: "incompleto",
-      qty: 1
+      qty: 3
+    }, {
+      description: "CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V",
+      qtyState: "incompleto",
+      qty: 3
+    }, {
+      description: "CONECTOR ADAPTADOR HEMBRA EAGLE 110V SALIDA MACHO EAGLE 220V",
+      qtyState: "incompleto",
+      qty: 3
     }]} />
     </div>
-}`,...E.parameters?.docs?.source}}},D=[`Open`,`Close`,`AllStates`,`MaterialListExample`,`DetailCardExample`]}))();export{w as AllStates,C as Close,E as DetailCardExample,T as MaterialListExample,S as Open,D as __namedExportsOrder,x as default};
+}`,...T.parameters?.docs?.source}}},E=[`Open`,`Close`,`MaterialListExample`,`DetailCardExample`]}))();export{C as Close,T as DetailCardExample,w as MaterialListExample,S as Open,E as __namedExportsOrder,x as default};

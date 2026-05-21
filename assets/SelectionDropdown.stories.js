@@ -1,13 +1,19 @@
-import{n as e}from"./chunk.js";import{F as t}from"./iframe.js";import{t as n}from"./jsx-runtime.js";import{n as r,t as i}from"./SelectionDropdown.js";var a,o,s,c,l,u;e((()=>{t(),r(),a=n(),o={title:`Sistema de Diseño/SelectionDropdown`,component:i,parameters:{layout:`centered`},decorators:[e=>(0,a.jsx)(`div`,{style:{width:400,padding:24,background:`#f3f3f3`},children:(0,a.jsx)(e,{})})]},s=[{label:`LADRILLO`,onClick:()=>console.log(`Ladrillo`)},{label:`CEMENTO`,onClick:()=>console.log(`Cemento`)},{label:`VARILLA`,onClick:()=>console.log(`Varilla`)},{label:`ARENA`,onClick:()=>console.log(`Arena`)}],c={args:{label:`Tipo de material`,items:s,isOpen:!1}},l={args:{label:`Tipo de material`,items:s,isOpen:!0}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+import{n as e,o as t}from"./chunk.js";import{F as n}from"./iframe.js";import{t as r}from"./jsx-runtime.js";import{n as i,t as a}from"./SelectionDropdown.js";var o,s,c,l,u,d,f;e((()=>{o=t(n()),i(),s=r(),c={title:`Sistema de Diseño/SelectionDropdown`,component:a,parameters:{layout:`centered`},decorators:[e=>(0,s.jsx)(`div`,{style:{width:400,padding:24,background:`#f3f3f3`},children:(0,s.jsx)(e,{})})]},l=[{label:`LADRILLO`,onClick:()=>console.log(`Ladrillo`)},{label:`CEMENTO`,onClick:()=>console.log(`Cemento`)},{label:`VARILLA`,onClick:()=>console.log(`Varilla`)},{label:`ARENA`,onClick:()=>console.log(`Arena`)}],u={render:e=>{let[t,n]=(0,o.useState)(!1);return(0,s.jsx)(a,{...e,isOpen:t,onToggle:()=>n(!t)})},args:{label:`Tipo de material`,items:l}},d={render:e=>{let[t,n]=(0,o.useState)(!0);return(0,s.jsx)(a,{...e,isOpen:t,onToggle:()=>n(!t)})},args:{label:`Tipo de material`,items:l}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    const [isOpen, setIsOpen] = useState(false);
+    return <SelectionDropdown {...args} isOpen={isOpen} onToggle={() => setIsOpen(!isOpen)} />;
+  },
   args: {
     label: "Tipo de material",
-    items: SAMPLE_ITEMS,
-    isOpen: false
+    items: SAMPLE_ITEMS
   }
-}`,...c.parameters?.docs?.source}}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    const [isOpen, setIsOpen] = useState(true);
+    return <SelectionDropdown {...args} isOpen={isOpen} onToggle={() => setIsOpen(!isOpen)} />;
+  },
   args: {
     label: "Tipo de material",
-    items: SAMPLE_ITEMS,
-    isOpen: true
+    items: SAMPLE_ITEMS
   }
-}`,...l.parameters?.docs?.source}}},u=[`Compressed`,`Expanded`]}))();export{c as Compressed,l as Expanded,u as __namedExportsOrder,o as default};
+}`,...d.parameters?.docs?.source}}},f=[`Compressed`,`Expanded`]}))();export{u as Compressed,d as Expanded,f as __namedExportsOrder,c as default};

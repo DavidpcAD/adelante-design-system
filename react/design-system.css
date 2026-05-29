@@ -672,15 +672,15 @@ body {
   transition:      background 120ms ease, border-color 120ms ease, border-width 120ms ease;
 }
 
-/* checked: borde 8px negro + fondo blanco → anillo grueso, ícono negro al centro */
+/* checked: borde 8px negro + fondo negro → círculo sólido, ícono blanco visible al centro */
 .ds-checkbox__box--checked {
   border-width: 8px;
-  background:   var(--ds-color-white);
+  background:   var(--ds-color-black);
 }
 
 /* SVG fill como propiedad CSS (no atributo) para que var() resuelva correctamente */
 .ds-checkbox__box--checked svg {
-  fill: var(--ds-color-black);
+  fill: var(--ds-color-white);
 }
 
 /* Figma disabled: gray-100 bg, gray-200 border */

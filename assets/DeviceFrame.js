@@ -1,4 +1,4 @@
-import{n as e}from"./chunk.js";import{M as t}from"./iframe.js";import{t as n}from"./jsx-runtime.js";function r({children:e}){return(0,o.jsxs)(`div`,{style:{display:`inline-flex`,flexDirection:`column`,background:`#1a1a1a`,borderRadius:`48px`,padding:`14px`,boxShadow:`
+import{n as e}from"./chunk.js";import{N as t}from"./iframe.js";import{t as n}from"./jsx-runtime.js";function r({children:e}){return(0,o.jsxs)(`div`,{style:{display:`inline-flex`,flexDirection:`column`,background:`#1a1a1a`,borderRadius:`48px`,padding:`14px`,boxShadow:`
         0 0 0 1px #3a3a3a,
         0 0 0 3px #1a1a1a,
         0 30px 80px rgba(0,0,0,0.5),
